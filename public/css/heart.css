@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+  padding: 0%;
+  margin: auto;
+  background-color: #fff !important;
+
+}
+
+:root {
+  --black: #000;
+  --white: #ffffff;
+  --bgcolor: #026675;
+  --yellow:#F7CA3E;
+  --fav:160138;
+}
+
+
+
+/* NAVBAR */
+.navbar {
+  /* background-image: linear-gradient(to right,#0869c4,#5f068b ) !important;  */
+  color: black !important;
+  padding: 3px !important;
+  position: sticky;
+  top: 0%;
+  z-index: 10;
+  background-color: white;
+}
+
+.container-fluid {
+  padding: none;
+  
+
+}
+
+.container-fluid .navbar-brand {
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.navbar-nav li a {
+  color: black !important;
+  font-weight: 500;
+}
+
+/* NAVBAR */
+
+
+/*OCCASIONS*/
+
+
+
+.occasions{
+  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.occasions-tittle {
+  font-size: 25px;
+  font-weight: 530;
+  font-family: bold;
+  border-bottom:0px solid #fff;
+  margin: 10px;
+}
+.occasions .box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.occasions .box-container .box{
+  background: #fff;
+  width: 30rem;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 .3rem .5rem rgba(0,0,0,.2);
+  text-align: center;
+}
+
+
+.occasions .box-container .box img{
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.occasions .box-container .box h3{
+  color: #333;
+  margin: 20px !important;
+  font-size: 20px !important;
+  font-family: inherit !important;
+  font-weight: 600 !important;
+}
+
+
+.occasions .box-container .box:hover{
+  transform: scale(1);
+  box-shadow: 0 1rem 1rem rgba(0,0,0,.2);
+}
+
+
+
+
+
+/*OCCASIONS*/
+
+      
+/* FOOTER */
+
+.footer-bottom{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /*background-image: linear-gradient(to right , #0869c4,#5f068b);*/
+  padding: 10px ;
+  border-top: .2rem solid #000 ;
+  text-align: center;
+  width:60%;
+ 
+}
+.footer-bottom p{
+  color: #000;
+   font-size: 19px;
+   word-spacing: 2px;
+   text-transform: capitalize;
+   font-family: bold;
+}
+.footer-bottom span{
+  color: rgb(206, 163, 22) !important;
+   text-transform: uppercase;
+   font-family: 'Andada Pro', serif;
+   font-weight: 900;
+}
+/* //FOOTER */
